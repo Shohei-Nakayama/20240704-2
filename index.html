@@ -7,8 +7,13 @@
     </title>
     <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.7.11/dist/vue.js"></script>
 </head>
 <body>
-    <input type="number">
+    <div id="app"   class="container">
+        <br><br><br>
+        <input v-model.number="myPrice" type="number"><br><br>
+        <p>価格{{myPrice}}円</p>
+    </div>
 </body>
 </html>

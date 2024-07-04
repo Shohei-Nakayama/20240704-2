@@ -1,4 +1,14 @@
 body{
-    50px
+    50px;
 }
 
+input[type=number]{
+    transform: scale(3);
+    marin: 30px 30px 30px 30px;
+}
+
+.container{
+    width:400px;
+    margin: 0 auto;
+    text-align: center;
+}
